@@ -8,7 +8,7 @@
     "clean": "rimraf coverage build .tmp",
     "compile": "babel lib/ -d build/",
     "watch": "npm run compile -- --watch",
-    "test": "",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "release": "np",
     "precompile": "npm run clean",
     "prepublish": "npm run compile",
